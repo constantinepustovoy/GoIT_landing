@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'rubik_regular';
+    src: url('../fonts/rubik-regular-webfont.eot');
+    src: url('../fonts/rubik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-regular-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-REGULAR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubik_black';
+    src: url('../fonts/rubik-black-webfont.eot');
+    src: url('../fonts/rubik-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-black-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-black-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-BLACK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'rubik_bold';
+    src: url('../fonts/rubik-bold-webfont.eot');
+    src: url('../fonts/rubik-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-bold-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-bold-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-BOLD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubikbold_italic';
+    src: url('../fonts/rubik-bolditalic-webfont.eot');
+    src: url('../fonts/rubik-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-BOLDITALIC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubik_italic';
+    src: url('../fonts/rubik-italic-webfont.eot');
+    src: url('../fonts/rubik-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-italic-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-italic-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-ITALIC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubik_light';
+    src: url('../fonts/rubik-light-webfont.eot');
+    src: url('../fonts/rubik-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-light-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-light-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-LIGHT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubik_medium';
+    src: url('../fonts/rubik-medium-webfont.eot');
+    src: url('../fonts/rubik-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-medium-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-medium-webfont.woff') format('woff'),
+         url('../fonts/RUBIK-MEDIUM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
