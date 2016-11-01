@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) and (min-width: 1024px) {
+@media screen, handheld and (orientation: landscape) and (max-width: 1920px) and (min-width: 1024px) {
 
 * {
 	margin: 0;
@@ -29,6 +29,7 @@ header {
 	margin-left: 40px;
 	height: auto;
 	overflow: visible;
+	padding-bottom: 20px;
 }
 
 .block_1_col_1>p,
@@ -94,6 +95,7 @@ header {
 	margin-top: 30px;
 	width: 100px;
 	height: auto;
+
 }
 
 .register {
@@ -160,6 +162,27 @@ header {
 	position: relative;
 
 }
+
+.regbutton:hover,
+.regbutton:focus {
+	margin-top: 20px;
+	font-family: 'rubik_regular';
+	font-size: 12px;
+	font-weight: 700;
+	background-image: url('../img/cta_focus.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding: 8px 12px 8px 8px;
+	width: 204px;
+	height: 39px;
+	border: none;
+	outline: none;
+	margin-left: 20%;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}
+
 
 .white_back {
 	width: 82%;
@@ -270,6 +293,27 @@ header {
 	text-transform: uppercase;
 	margin-left: 29%;
 	margin-bottom: 50px;
+}
+
+.button_2:hover,
+.button_2:focus {
+	font-family: 'rubik_regular', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	background-image: url('../img/button_2_focus.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding: 8px 12px 8px 8px;
+	width: 600px;
+	height: 56px;
+	border: none;
+	outline: none;
+	z-index: 2;
+	position: relative;
+	text-transform: uppercase;
+	margin-left: 29%;
+	margin-bottom: 50px;
+	cursor: pointer;
 }
 
 .block_4 {
@@ -421,7 +465,7 @@ header {
 	background-size: contain;
 	background-color: transparent;
 	background-repeat: no-repeat;
-	padding: 5px 8px 15px 8px;
+	padding: 8px 8px 15px 8px;
 	width: 70%;
 	height: auto;
 	border: none;
@@ -429,6 +473,26 @@ header {
 	margin-bottom: 30px;
 	margin: 0 auto;
 	position: relative;
+}
+
+.button_3:hover,
+.button_3:focus {
+	font-family: 'rubik_regular', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	background-image: url('../img/button_3_focus.png');
+	background-size: contain;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding: 8px 8px 15px 8px;
+	width: 70%;
+	height: auto;
+	border: none;
+	outline: none;
+	margin-bottom: 30px;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
 }
 
 .block_5_51 {
@@ -439,7 +503,7 @@ header {
 	background-repeat: no-repeat;
 }
 
-.block_5_51>p:nth-child(2) {
+.who_are_we_header {
 	font-family: 'Russo One', sans-serif;
 	font-size: 30px;
 	text-align: center;
@@ -448,16 +512,15 @@ header {
 	background-color: #fff;
 }
 
-.block_5_51>p:nth-child(3),
-.block_5_51>p:nth-child(4) {
+.who_are_we_text {
 	font-family: 'rubik_regular', sans-serif;
 	font-size: 18px;
 	width: 70%;
 	margin-left: 15%;
 	text-align: center;
 	margin-top: 50px;
-
 }
+
 
 .block_5_51>p:nth-child(4) {
 	padding-bottom: 80px;
@@ -466,6 +529,7 @@ header {
 .block_6 img {
 	width: 100%;
 	height: auto;
+	margin-top: 40px;
 }
 
 .block_7 {
@@ -535,8 +599,8 @@ header {
 	float: right;
 }
 
-.block_8>p:nth-child(6),
-.block_8>p:nth-child(7) {
+.block_8>p:nth-child(8),
+.block_8>p:nth-child(9) {
 	font-family: 'rubik_regular', sans-serif;
 	font-size: 15px;
 	color: #000;
@@ -550,7 +614,7 @@ header {
 	padding-bottom: 70px;
 }
 
-.block_8>p:nth-child(10) {
+.block_8>p:nth-child(12) {
 	font-family: 'rubik_regular', sans-serif;
 	font-size: 18px;
 	color: #fff;
@@ -558,6 +622,7 @@ header {
 	width: 70%;
 	float: left;
 	margin-left: 20px;
+	line-height: 1.2;
 }
 
 .white_line_4 {
@@ -617,5 +682,10 @@ footer .white_back {
 footer .overlay {
 	background-color: #fff;
 }
+
+.for_320 {
+	display: none;
+}
+
 
 }

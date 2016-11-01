@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" media="(max-width: 1920px)" href="css/style.css">
-	<link rel="stylesheet" media="(max-width: 1024px)" href="css/style_320.css">
+	<link rel="stylesheet" media="(max-width: 1920px) and (min-width: 1024px)" href="css/style.css">
+	<link rel="stylesheet" media="(max-width: 1024px) and (min-width: 320px)" href="css/style_320.css">
 	<title>Document</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 			<p>
 				Бесплатная презентация для тех, кто хочет сменить профессию и начать карьеру в IT сфере
 			</p>
-			<div class="orange_line"></div>
+			<div class="orange_line for_1024"></div>
 			  <div class="proposal">
 				<p>
 					узнай за 1 час, каким может быть твой путь в IT
@@ -31,13 +32,16 @@
 			<p>
 				киев, 16 августа, 19:30
 			</p>
-			<p>
+			<p class="for_1024">
 				Точный адрес проведения и карту проезда мы 
 			</p>
-			<p> 
+			<p class="for_1024"> 
 				вышлем Вам на почту сразу после </p>
-				<p>
+			<p class="for_1024">
 				регистрации
+			</p>
+			<p class="for_320">
+				Точный адрес проведения и карту проезда мы вышлем Вам на почту сразу после регистрации
 			</p>
 		</div>
 		<div class="block_1_col_2">
@@ -46,17 +50,18 @@
 					<p class="cta_text">
 						зарегистрируйся сейчас
 					</p>
-					<img class="adobe_logo" src="img/adobe_dst.png">
+					<img class="adobe_logo" src="img/adobe_dst.png" alt="adobe_logo">
+					<div class="black_line for_320"></div>
 					<p class="report_text">
-						и получи сразу на почту PDF-отчёт от развитии IT сферы Украины и реальной потребности в новых кадрах
+						и получи сразу на почту PDF-отчёт от развитии IT-сферы Украины и реальной потребности в новых кадрах
 					</p>
 				
 				<div class="clearfix"></div>
-					<form class="register_form">
+					<form class="register_form" method="post" action="/#">
 						<input class="input_box" type="text" required placeholder="введите имя" id="first_name">
 						<input class="input_box" type="text" required placeholder="введите email" id="email">
 						<input class="input_box" type="text" required placeholder="введите номер телефона" id="tel_number">
-						<input class="regbutton" type="submit" value="ХОЧУ УЗНАТЬ СВОЙ ПУТЬ В IT"> 
+						<input type="submit" class="regbutton" value="ХОЧУ УЗНАТЬ СВОЙ ПУТЬ В IT"> 
 						</form>
 					<div class="clearfix"></div>
 				</div>
@@ -68,9 +73,12 @@
 	
 	<article class="block_2">
 		<div class="block_2_col_1">
+			<div class="white_line_mob_vert for_320"></div>
 			<p>
 				На консультации ты получишь ответы на все ключевые вопросы по IT
 			</p>
+			<div class="clearfix"></div>
+			<div class="white_line_mob_hor for_320"></div>
 		</div>
 		<div class="block_2_col_2">
 			<ul>
@@ -92,19 +100,19 @@
 		</p>
 		</h2>
 		<div class="block_3_col_1">
-			<img src="img/book.png">
+			<img class="funny_images" src="img/book.png" alt="Book">
 			<p>
 				Пройдете профориентационный тест и определите, какое направление будет легче, интересней и быстрее освоить именно вам.
 			</p>
 		</div>
 		<div class="block_3_col_2">
-			<img src="img/circle.png">
+			<img class="funny_images" src="img/circle.png" alt="circle">
 			<p>
 				Вместе с консультантом сформируете пошаговый план входа в IT с учётом ваших текущих знаний и навыков
 			</p>
 		</div>
 		<div class="block_3_col_3">
-			<img src="img/trian.png">
+			<img class="funny_images" src="img/trian.png" alt="triangle">
 			<p>
 				Получите доступ к 3 развернутым видео по ключевым направлениям в IT, чтобы самостоятельно изучить все детали
 			</p>
@@ -125,7 +133,7 @@
 			</p>
 			<div class="white_line"></div>
 			<p>
-				рост рынка в Украине за 2015 год. Даже в кризис. Как следствие, постоянная нехватка специалистов.
+				рост рынка в Украине за 2015 год. Даже в кризис. Как следствие, постоянная нехватка специалистов
 			</p>
 		</div>
 		<div class="block_4_col_2">
@@ -155,12 +163,12 @@
 	<div  class="block_5">
 		<div class="white_line_2"></div>
 		<div class="block_5_text_1">
-			<p>
+			<p class="for_1024">
 				Сейчас на IT рынке работы намного больше, чем квалифицированных кадров, способных её выполнять. Работы, за которую платят много и без задержек. Потому что конкуренция за толковых специалистов между компаниями крайне высока. И эта тенденция будет только усиливаться. 
 			</p>
 			<div class="white_line_3"></div>
 			<p>
-				Устал растрачивать свой потенциал, работая за копейки в стагнирующей отрасли или на ненавистной тебе работе?
+				Устал растрачивать свой по&shy;тенциал, ра&shy;ботая за ко&shy;пейки в стаг&shy;ни&shy;рующей отрас&shy;ли или на нена&shy;вист&shy;ной тебе ра&shy;боте?
 			</p>
 			<p>
 				Узнай, как именно начнётся твой путь в IT
@@ -173,39 +181,49 @@
 		<div class="clearfix"></div>
 		
 	</div>
-		<p>
+	</div>
+	<div class="who_are_we">
+		<p class="who_are_we_header">
 			Кто мы такие и почему все это рассказываем
 		</p>
-		<p>
+		<p class="who_are_we_text">
 			GoIT - это образовательный проект, нацеленный на подготовку с нуля новых IT-специалистов для украинского рынка
 		</p>
-		<p>
+		<p class="who_are_we_text">
 			Наша миссия - сделать украинцев IT-нацией и помочь каждому человеку построить свою персональную историю успеха
 		</p>
 	</div>
-	<div class="block_6">
+	<div class="block_6 for_1024">
 		<img src="img/photo.jpg">
 	</div>
+	<div class="orange_block"></div>
 	<div class="block_7">
 		<ul>
-			<li>За 1 год и 8 месяцев на нащих мероприятиях побывало более <strong>10.000</strong> человек</li>
-			<li>Более <strong>3000</strong> прошло обучение и <strong>68%</strong> выпускников уже получили свою первую работу в IT</li>
-			<li>Многие из наших студентов уже получили повышение</li>
-			<li>Сейчас на наших программах одновременно обучаются около <strong>1300</strong> человек</li>
+			<li>За 1 год и 8 месяцев на наших меро&shy;приятиях побывало более <strong>10.000</strong> человек</li>
+			<li>Более <strong>3000</strong> прошло обу&shy;чение и <strong>68%</strong> вы&shy;пуск&shy;ников уже полу&shy;чили свою первую работу в IT</li>
+			<li>Многие из наших сту&shy;дентов уже полу&shy;чили повы&shy;шение</li>
+			<li>Сейчас на наших про&shy;граммах одно&shy;времен&shy;но обу&shy;чают&shy;ся около <strong>1300</strong> чело&shy;век</li>
 		</ul>
 	</div>
+	<div>
+		<img class="diagram_mob for_320" src="img/diagram_mob.png">
+	</div>
 	<div class="block_8">
-		<p>
+		<p class="for_1024">
 			Вас останавливает лишь неуверенность и нехватка
 		</p>
-		<div class="middle_line_1"></div>
-		<div class="middle_line_2"></div>
-		<div class="clearfix"></div>
-		<p>
+		<div class="middle_line_1 for_1024"></div>
+		<div class="middle_line_2 for_1024"></div>
+		<div class="clearfix for_1024"></div>
+		<p class="for_1024">
 			информации о реальном положении дел
 		</p>
+		<p class="for_320">
+			Вас останавливает лишь неуверенность и нехватка информации о реальном положении дел
+		</p>
+		<div class="middle_line_1 for_320"></div>
 		<p>
-			За это время мы чётко увидели, что сменить профессию и начать карьеру в IT может любой
+			За это время мы чётко увидели, что сменить профессию и начать карьеру в IT может любой.
 		</p>
 		<p>
 			Зачастую люди сами останавливают себя, даже не попробовав. Причина этому - нехватка информации о реальном положении дел, возможных путях развития и переквалификации. Многим это кажется слишком сложным и недоступным. Как следствие - неуверенность в собственных силах.
@@ -213,7 +231,7 @@
 		<div class="white_line_4"></div>
 		<div class="white_line_5"></div>
 		<p>
-			Именно поэтому мы собрали всю ключевую информацию в одну презентацию и даем вам возможность оценить ваш реальный потенциал
+			Именно поэтому мы собрали всю ключевую информацию в одну презентацию и даем вам возможность оценить ваш реальный потенциал.
 		</p>
 		<div class="clearfix"></div>
 		<div class="white_line_6"></div>
@@ -223,7 +241,7 @@
 			<p>
 				Бесплатная презентация для тех, кто хочет сменить профессию и начать карьеру в IT сфере
 			</p>
-			<div class="orange_line"></div>
+			<div class="orange_line for_1024"></div>
 			  <div class="proposal">
 				<p>
 					узнай за 1 час, каким может быть твой путь в IT
@@ -239,22 +257,26 @@
 			<p>
 				киев, 16 августа, 19:30
 			</p>
-			<p class="overlay">
+			<p class="overlay for_1024">
 				Точный адрес проведения и карту проезда мы 
 			</p>
-			<p class="overlay"> 
+			<p class="overlay for_1024"> 
 				вышлем Вам на почту сразу после </p>
-				<p class="overlay">
+				<p class="overlay for_1024">
 				регистрации
+			</p>
+			<p class="for_320">
+				Точный адрес проведения и карту проезда мы вышлем Вам на почту сразу после регистрации
 			</p>
 		</div>
 		<div class="block_1_col_2">
-			<img class="logo_goit" src="img/logo_goit.png" alt="GoIT logo">
+			<img class="logo_goit bottom for_1024" src="img/logo_goit.png" alt="GoIT logo">
 				<div class="register">
 					<p class="cta_text">
 						зарегистрируйся сейчас
 					</p>
 					<img class="adobe_logo" src="img/adobe_dst.png">
+					<div class="black_line for_320"></div>
 					<p class="report_text">
 						и получи сразу на почту PDF-отчёт от развитии IT сферы Украины и реальной потребности в новых кадрах
 					</p>
